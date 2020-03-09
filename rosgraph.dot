@@ -1,0 +1,60 @@
+digraph graphname {
+	graph [bb="0,0,785.46,106",
+		compound=True,
+		rank=same,
+		rankdir=LR,
+		ranksep=0.2
+	];
+	node [label="\N"];
+	subgraph cluster_whycon_display {
+		graph [bb="528.78,8,777.46,83",
+			compound=True,
+			label=whycon_display,
+			lheight=0.21,
+			lp="653.12,71.5",
+			lwidth=1.24,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n___whycon_display__image_view		 [URL=__whycon_display__image_view,
+			height=0.5,
+			label="/whycon_display/image_view",
+			pos="653.12,34",
+			shape=ellipse,
+			tooltip="/whycon_display/image_view",
+			width=3.2317];
+	}
+	n___gazebo_gui	 [URL=__gazebo_gui,
+		height=0.5,
+		label="/gazebo_gui",
+		pos="53.945,88",
+		shape=ellipse,
+		tooltip="/gazebo_gui",
+		width=1.4985];
+	n___whycon	 [URL=__whycon,
+		height=0.5,
+		label="/whycon",
+		pos="362.84,34",
+		shape=ellipse,
+		tooltip="/whycon",
+		width=1.1374];
+	n___whycon -> n___whycon_display__image_view	 [URL=topic_3A__whycon__image_out,
+		label="/whycon/image_out",
+		lp="466.28,41.5",
+		penwidth=1,
+		pos="e,536.5,34 403.92,34 435.79,34 482.18,34 526.25,34"];
+	n___gazebo	 [URL=__gazebo,
+		height=0.5,
+		label="/gazebo",
+		pos="53.945,34",
+		shape=ellipse,
+		tooltip="/gazebo",
+		width=1.0652];
+	n___gazebo -> n___whycon	 [URL=topic_3A__gazebo__overhead_cam__camera_info,
+		label="/gazebo/overhead_cam/camera_info",
+		lp="214.89,41.5",
+		penwidth=1,
+		pos="e,321.46,34 92.576,34 147.5,34 249.75,34 311.22,34"];
+}
