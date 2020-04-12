@@ -14,10 +14,10 @@ Enclosed files contain:-
 Ubuntu 16.04 or 18.04 LTS is required with ROS
 Kinetic/Melodic.(Full desktop insatllation required )
 
-• For ubuntu 16.04 LTS + Ros Kinetic
+1. For ubuntu 16.04 LTS + Ros Kinetic
 (http://wiki.ros.org/kinetic/Installation/Ubuntu)
-• For ubuntu 18.04 LTS + Ros Melodic
+2. For ubuntu 18.04 LTS + Ros Melodic
 (http://wiki.ros.org/melodic/Installation/Ubuntu)
 
-Repo maintained by Aman Mahapatra
+Repo maintained by Aman Mahapatra, 
 Contributed by Agnivo N.
